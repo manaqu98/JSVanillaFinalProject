@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Imagen de fondo*/
+body{
+    background-image: url(https://www.noticiastornquist.com.ar/adjuntos/escuelasdesigualdadcapitalhumanocoronaviruscovid19min.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+main img{
+    width: 350px;
+    height: 350px;
+    float: right;
+    margin: -575px 80px;
+    position: relative;
+}
+
+.errmsg{
+    display: none;
+    color: #FF0000;
+}
+
+/*Caja login completa*/
+.contenedor__todo{
+    width: 400px;
+    margin: 225px 50px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Texto detras login*/
+.caja__trasera{
+    position: relative;
+    width: 800px;
+    height: 350px;
+    padding: 10px 10px;
+    text-align: right;
+    line-height: 100px;
+    backdrop-filter: blur(15px);
+    background-color: rgba(238, 255, 0, 0.493);
+    border-radius: 2cm;
+}
+
+/*Texto: Bienvenido*/
+.caja__trasera h3{
+    margin-right: 190px;
+    margin-top: 12px;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+/*Texto: Inicie sesion...*/
+.caja__trasera p{
+    margin-right: 70px;
+    margin-top: 7px;
+    font-size: 23px;
+    font-weight: 700;
+    color: rgb(3, 80, 0);
+}
+
+/*Formularios*/
+.contenedor__login-register{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 380px;
+    position: relative;
+    top: -180px;
+    left: 25px;
+}
+
+.contenedor__login-register form{
+    width: 100%;
+    padding: 80px 20px;
+    background: white;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.contenedor__login-register form h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.contenedor__login-register form input{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background: #F2F2F2;
+    font-size: 16px;
+    outline: none;
+}
+
+.contenedor__login-register form button{
+    padding: 10px 40px;
+    margin-top: 40px;
+    border: none;
+    font-size: 14px;
+    background: #d9ff00;
+    font-weight: 600;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    outline: none;
+}
+
+.formulario__login{
+    opacity: 1;
+    display: block;
+}
